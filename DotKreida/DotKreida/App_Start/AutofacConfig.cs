@@ -20,6 +20,8 @@ namespace DotKreida.App_Start {
 
             builder.RegisterType<HomeService>().As<IHomeService>();
 
+            builder.RegisterType<ProfileService>().As<IProfileService>();
+
             var container = builder.Build();
             DependencyResolver.SetResolver(new AutofacDependencyResolver(container));
         }
