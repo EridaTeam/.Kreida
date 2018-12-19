@@ -128,13 +128,16 @@
     <Compile Include="Contracts\Repositories\Specific\ICourseRepository.cs" />
     <Compile Include="Contracts\Repositories\Specific\ITopicRepository.cs" />
     <Compile Include="Contracts\Repositories\Specific\IUserRepository.cs" />
+    <Compile Include="Contracts\Services\IContentService.cs" />
     <Compile Include="Contracts\Services\IHomeService.cs" />
     <Compile Include="Contracts\Services\IProfileService.cs" />
+    <Compile Include="Controllers\AboutController.cs" />
     <Compile Include="Controllers\Api\CoursesApiController.cs" />
     <Compile Include="Controllers\Api\LessonsApiController.cs" />
     <Compile Include="Controllers\Api\QuestionsApiController.cs" />
     <Compile Include="Controllers\Api\TestsApiController.cs" />
     <Compile Include="Controllers\Api\TopicsApiController.cs" />
+    <Compile Include="Controllers\ContentController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ProfileController.cs" />
     <Compile Include="Global.asax.cs">
@@ -152,10 +155,15 @@
     <Compile Include="Repositories\Specific\UserRepository.cs" />
     <Compile Include="Repositories\SqlServerContext.cs" />
     <Compile Include="Repositories\UnitOfWork.cs" />
+    <Compile Include="Services\ContentService.cs" />
     <Compile Include="Services\HomeService.cs" />
     <Compile Include="Services\ProfileService.cs" />
+    <Compile Include="ViewModels\CoursesViewModel.cs" />
     <Compile Include="ViewModels\HomeIndexViewModel.cs" />
+    <Compile Include="ViewModels\LessonsViewModel.cs" />
     <Compile Include="ViewModels\ProfileIndexViewModel.cs" />
+    <Compile Include="ViewModels\TestViewModel.cs" />
+    <Compile Include="ViewModels\TopicsViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
@@ -169,6 +177,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\About\" />
+    <Folder Include="Views\Content\" />
     <Folder Include="Views\Home\" />
     <Folder Include="Views\Profile\" />
   </ItemGroup>
