@@ -86,3 +86,7 @@ C:\Users\Евгений\Desktop\EridaTeam\DotKreida\DotKreida\bin\Autofac.Integr
 C:\Users\Евгений\Desktop\EridaTeam\DotKreida\DotKreida\bin\RefactorThis.GraphDiff.dll
 C:\Users\Евгений\Desktop\EridaTeam\DotKreida\DotKreida\bin\RefactorThis.GraphDiff.pdb
 C:\Users\Евгений\Desktop\EridaTeam\DotKreida\DotKreida\bin\RefactorThis.GraphDiff.xml
+D:\DotKreidaV2\DotKreida\DotKreida\obj\Debug\DotKreida.csprojAssemblyReference.cache
+D:\DotKreidaV2\DotKreida\DotKreida\obj\Debug\DotKreida.csproj.CoreCompileInputs.cache
+D:\DotKreidaV2\DotKreida\DotKreida\obj\Debug\DotKreida.dll
+D:\DotKreidaV2\DotKreida\DotKreida\obj\Debug\DotKreida.pdb

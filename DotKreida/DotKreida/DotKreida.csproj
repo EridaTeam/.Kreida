@@ -129,7 +129,14 @@
     <Compile Include="Contracts\Repositories\Specific\ITopicRepository.cs" />
     <Compile Include="Contracts\Repositories\Specific\IUserRepository.cs" />
     <Compile Include="Contracts\Services\IHomeService.cs" />
+    <Compile Include="Contracts\Services\IProfileService.cs" />
+    <Compile Include="Controllers\Api\CoursesApiController.cs" />
+    <Compile Include="Controllers\Api\LessonsApiController.cs" />
+    <Compile Include="Controllers\Api\QuestionsApiController.cs" />
+    <Compile Include="Controllers\Api\TestsApiController.cs" />
+    <Compile Include="Controllers\Api\TopicsApiController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ProfileController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -146,7 +153,9 @@
     <Compile Include="Repositories\SqlServerContext.cs" />
     <Compile Include="Repositories\UnitOfWork.cs" />
     <Compile Include="Services\HomeService.cs" />
+    <Compile Include="Services\ProfileService.cs" />
     <Compile Include="ViewModels\HomeIndexViewModel.cs" />
+    <Compile Include="ViewModels\ProfileIndexViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
@@ -161,6 +170,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Views\Home\" />
+    <Folder Include="Views\Profile\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
