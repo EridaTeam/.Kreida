@@ -130,6 +130,11 @@
     <Compile Include="Contracts\Repositories\Specific\IUserRepository.cs" />
     <Compile Include="Contracts\Services\IHomeService.cs" />
     <Compile Include="Contracts\Services\IProfileService.cs" />
+    <Compile Include="Controllers\Api\CoursesApiController.cs" />
+    <Compile Include="Controllers\Api\LessonsApiController.cs" />
+    <Compile Include="Controllers\Api\QuestionsApiController.cs" />
+    <Compile Include="Controllers\Api\TestsApiController.cs" />
+    <Compile Include="Controllers\Api\TopicsApiController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ProfileController.cs" />
     <Compile Include="Global.asax.cs">
