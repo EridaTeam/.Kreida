@@ -1,5 +1,8 @@
-﻿using DotKreida.Contracts.Repositories;
+﻿using Autofac;
+using Autofac.Integration.Mvc;
+using DotKreida.Contracts.Repositories;
 using DotKreida.Models;
+using DotKreida.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,7 +18,7 @@ namespace DotKreida.Controllers.Api
 
         public TopicsApiController(IUnitOfWork unitOfWork)
         {
-            this.unitOfWork = unitOfWork;
+            unitOfWork = AutofacDependencyResolver.Current.ApplicationContainer.Resolve<IUnitOfWork>();
         }
 
         [HttpGet]

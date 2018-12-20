@@ -1,4 +1,6 @@
-﻿using DotKreida.Contracts.Repositories;
+﻿using Autofac;
+using Autofac.Integration.Mvc;
+using DotKreida.Contracts.Repositories;
 using DotKreida.Models;
 using System;
 using System.Collections.Generic;
@@ -14,7 +16,7 @@ namespace DotKreida.Controllers.Api
 
         public CoursesApiController(IUnitOfWork unitOfWork)
         {
-            this.unitOfWork = unitOfWork;
+            unitOfWork = AutofacDependencyResolver.Current.ApplicationContainer.Resolve<IUnitOfWork>();
         }
 
         [HttpGet]
