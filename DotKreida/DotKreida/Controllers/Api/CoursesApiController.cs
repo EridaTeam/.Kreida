@@ -14,11 +14,9 @@ namespace DotKreida.Controllers.Api
     {
         IUnitOfWork unitOfWork;
 
-        public CoursesApiController() { }
-
-        public CoursesApiController(IUnitOfWork unitOfWork)
+        public CoursesApiController()
         {
-           this.unitOfWork = AutofacDependencyResolver.Current.ApplicationContainer.Resolve<IUnitOfWork>();
+            unitOfWork = AutofacDependencyResolver.Current.ApplicationContainer.Resolve<IUnitOfWork>();
         }
 
         [HttpGet]
